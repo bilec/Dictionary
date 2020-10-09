@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view_dictionary_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Pravidlá slovenského pravopisu"
+            android:elevation="6dp"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textIsSelectable="true"
+            />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/dividerVertical"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textIsSelectable="true"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

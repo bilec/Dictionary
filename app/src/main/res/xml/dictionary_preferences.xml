@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/settings_search_pattern_default"
+        android:entries="@array/settings_search_pattern_labels"
+        android:entryValues="@array/settings_search_pattern_values"
+        android:key="@string/settings_search_pattern_key"
+        android:title="@string/settings_search_pattern_label" />
+
+
+    <PreferenceCategory android:title="@string/settings_contemporary_dictionaries_title">
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_kssj_value"
+            android:title="@string/settings_dictionary_kssj_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_psp_value"
+            android:title="@string/settings_dictionary_psp_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_sssj_value"
+            android:title="@string/settings_dictionary_sssj_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_orter_value"
+            android:title="@string/settings_dictionary_orter_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_scs_value"
+            android:title="@string/settings_dictionary_scs_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_sss_value"
+            android:title="@string/settings_dictionary_sss_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_peciar_value"
+            android:title="@string/settings_dictionary_peciar_label" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/settings_historical_dictionaries_title">
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_hssjV_value"
+            android:title="@string/settings_dictionary_hssjV_label" />
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_bernolak_value"
+            android:title="@string/settings_dictionary_bernolak_label" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/settings_other_title">
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_noundb_value"
+            android:title="@string/settings_dictionary_noundb_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_orient_value"
+            android:title="@string/settings_dictionary_orient_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_locutio_value"
+            android:title="@string/settings_dictionary_locutio_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_obce_value"
+            android:title="@string/settings_dictionary_obce_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_priezviska_value"
+            android:title="@string/settings_dictionary_priezviska_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_un_value"
+            android:title="@string/settings_dictionary_un_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_pskcs_value"
+            android:title="@string/settings_dictionary_psken_label" />
+
+        <CheckBoxPreference
+            app:singleLineTitle="false"
+            android:defaultValue="true"
+            android:key="@string/settings_dictionary_psken_value"
+            android:title="@string/settings_dictionary_psken_label" />
+    </PreferenceCategory>
+
+    <SwitchPreference
+        app:singleLineTitle="false"
+        android:defaultValue="false"
+        android:key="@string/settings_invert_key"
+        android:title="@string/settings_invert_label" />
+
+</PreferenceScreen>

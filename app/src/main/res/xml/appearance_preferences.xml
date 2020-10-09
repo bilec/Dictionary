@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/settings_night_mode_default"
+        android:entries="@array/settings_night_mode_labels"
+        android:entryValues="@array/settings_night_mode_values"
+        android:icon="@drawable/ic_invert_colors"
+        android:key="@string/settings_night_mode_key"
+        android:title="@string/settings_night_mode_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_font_size_default"
+        android:entries="@array/settings_font_size_labels"
+        android:entryValues="@array/settings_font_size_values"
+        android:key="@string/settings_font_size_key"
+        android:title="@string/settings_font_size_label"
+        android:icon="@drawable/ic_text_fields"/>
+
+</PreferenceScreen>

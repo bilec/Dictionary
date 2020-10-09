@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_search_pattern_labels">
+        <item>@string/settings_search_pattern_exact_label</item>
+        <item>@string/settings_search_pattern_prefix_label</item>
+        <item>@string/settings_search_pattern_substring_label</item>
+        <item>@string/settings_search_pattern_suffix_label</item>
+        <item>@string/settings_search_pattern_regular_expression_label</item>
+    </string-array>
+
+    <string-array name="settings_search_pattern_values">
+        <item>@string/settings_search_pattern_exact_value</item>
+        <item>@string/settings_search_pattern_prefix_value</item>
+        <item>@string/settings_search_pattern_substring_value</item>
+        <item>@string/settings_search_pattern_suffix_value</item>
+        <item>@string/settings_search_pattern_regular_expression_value</item>
+    </string-array>
+
+
+    <string-array name="settings_night_mode_labels">
+        <item>@string/settings_night_mode_disabled_label</item>
+        <item>@string/settings_night_mode_always_on_label</item>
+        <item>@string/settings_night_mode_automatic_label</item>
+    </string-array>
+
+    <string-array name="settings_night_mode_values">
+        <item>@string/settings_night_mode_disabled_value</item>
+        <item>@string/settings_night_mode_always_on_value</item>
+        <item>@string/settings_night_mode_automatic_value</item>
+    </string-array>
+
+
+    <string-array name="settings_font_size_labels">
+        <item>@string/settings_font_size_small_label</item>
+        <item>@string/settings_font_size_normal_label</item>
+        <item>@string/settings_font_size_large_label</item>
+        <item>@string/settings_font_size_larger_label</item>
+    </string-array>
+
+    <string-array name="settings_font_size_values">
+        <item>@string/settings_font_size_small_value</item>
+        <item>@string/settings_font_size_normal_value</item>
+        <item>@string/settings_font_size_large_value</item>
+        <item>@string/settings_font_size_larger_value</item>
+    </string-array>
+
+</resources>

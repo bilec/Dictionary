@@ -1,0 +1,55 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+<!--        <item name="android:colorControlNormal">@color/colorPrimary</item>-->
+        <item name="android:actionModeBackground">@color/actionModeColor</item>
+
+        <item name="android:statusBarColor">#121212</item>
+
+        <item name="textAppearanceHeadline5">@style/MyTextAppearance.Headline5</item>
+        <item name="textAppearanceBody1">@style/MyTextAppearance.Body1</item>
+    </style>
+
+    <style name="MyTextAppearance.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">?attr/font_headline</item>
+    </style>
+
+    <style name="MyTextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">?attr/font_body</item>
+    </style>
+
+
+    <style name="FontStyle"/>
+
+    <style name="FontStyle.Small">
+        <item name="font_headline">22sp</item>
+        <item name="font_body">14sp</item>
+        <item name="button_size">30dp</item>
+    </style>
+
+    <style name="FontStyle.Normal">
+        <item name="font_headline">24sp</item>
+        <item name="font_body">16sp</item>
+        <item name="button_size">40dp</item>
+    </style>
+
+    <style name="FontStyle.Large">
+        <item name="font_headline">26sp</item>
+        <item name="font_body">18sp</item>
+        <item name="button_size">50dp</item>
+    </style>
+
+    <style name="FontStyle.Larger">
+        <item name="font_headline">28sp</item>
+        <item name="font_body">20sp</item>
+        <item name="button_size">60dp</item>
+    </style>
+
+
+</resources>

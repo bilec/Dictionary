@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FontStyle">
+        <attr name="font_headline" format="dimension"/>
+        <attr name="font_body" format="dimension"/>
+        <attr name="button_size" format="dimension"/>
+    </declare-styleable>
+    
+</resources>

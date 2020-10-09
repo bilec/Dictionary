@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Preference
+        app:key="@string/settings_about_version_key"
+        app:title="@string/settings_about_version_label"
+        tools:summary="1.0"/>
+
+    <Preference
+        app:key="@string/settings_about_developer_key"
+        app:title="@string/settings_about_developer_label"
+        app:summary="@string/settings_about_developer_summary"/>
+
+    <Preference
+        app:key="@string/settings_about_source_code_key"
+        app:title="@string/settings_about_source_code_label"
+        app:summary="@string/settings_about_source_code_summary"/>
+
+    <Preference
+        app:key="@string/settings_about_licence_key"
+        app:title="@string/settings_about_licence_label"
+        tools:summary="MIT Licence"/>
+
+    <Preference
+        app:key="@string/settings_about_licences_key"
+        app:title="@string/settings_about_licences_label"/>
+
+</PreferenceScreen>

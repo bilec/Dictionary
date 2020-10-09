@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.dictionary.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.dictionary.fragments.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.dictionary.fragments.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history"/>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.dictionary.fragments.settings.SettingsFragment"
+        android:label="@string/title_settings"/>
+
+    <fragment
+        android:id="@+id/navigation_dictionary_settings"
+        android:name="com.example.dictionary.fragments.settings.dictionary.DictionaryFragment"
+        android:label="@string/title_dictionary" />
+
+    <fragment
+        android:id="@+id/navigation_appearance_settings"
+        android:name="com.example.dictionary.fragments.settings.appearance.AppearanceFragment"
+        android:label="@string/title_appearance" />
+
+    <fragment
+        android:id="@+id/navigation_about_settings"
+        android:name="com.example.dictionary.fragments.settings.about.AboutFragment"
+        android:label="@string/title_about" />
+
+    <fragment
+        android:id="@+id/navigation_licences_about_settings"
+        android:name="com.example.dictionary.fragments.settings.about.licences.LicencesFragment"
+        android:label="@string/title_licences" />
+
+    <fragment
+        android:id="@+id/navigation_licence_licences_about_settings"
+        android:name="com.example.dictionary.fragments.settings.about.licences.licence.LicenceFragment"
+        android:label="@string/title_licence" />
+
+
+</navigation>

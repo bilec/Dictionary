@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="@string/settings_dictionary_key"
+        app:title="@string/title_dictionary"
+        app:icon="@drawable/ic_search"
+        app:summary="@string/preference_dictionary_summary"
+        />
+
+    <Preference
+        app:key="@string/settings_appearance_key"
+        app:title="@string/title_appearance"
+        app:icon="@drawable/ic_palette"
+        app:summary="@string/preference_appearance_summary"
+        />
+
+    <Preference
+        app:key="@string/settings_about_key"
+        app:title="@string/title_about"
+        app:icon="@drawable/ic_info"
+        />
+
+</PreferenceScreen>

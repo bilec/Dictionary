@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+
+    <string name="settings_contemporary_dictionaries_title">Contemporary dictionaries</string>
+    <string name="settings_historical_dictionaries_title">Historical dictionaries</string>
+    <string name="settings_other_title">Other</string>
+
+    <string name="settings_search_pattern_label">Search pattern</string>
+    <string name="settings_search_pattern_key"  translatable="false">search_pattern</string>
+    <string name="settings_search_pattern_default" translatable="false">@string/settings_search_pattern_exact_value</string>
+
+    <string name="settings_invert_label">Invert</string>
+    <string name="settings_invert_key" translatable="false">invert</string>
+
+    <string name="settings_search_pattern_exact_label">Exact</string>
+    <string name="settings_search_pattern_prefix_label">Prefix</string>
+    <string name="settings_search_pattern_substring_label">Substring</string>
+    <string name="settings_search_pattern_suffix_label">Suffix</string>
+    <string name="settings_search_pattern_regular_expression_label">Regular expression</string>
+
+    <string name="settings_search_pattern_exact_value" translatable="false">exact</string>
+    <string name="settings_search_pattern_prefix_value" translatable="false">prefix</string>
+    <string name="settings_search_pattern_substring_value" translatable="false">substring</string>
+    <string name="settings_search_pattern_suffix_value" translatable="false">suffix</string>
+    <string name="settings_search_pattern_regular_expression_value" translatable="false">re</string>
+
+    <!--    sucasne slovniky-->
+    <string name="settings_dictionary_kssj_label" translatable="false">Krátky slovník slovenského jazyka 4</string>
+    <string name="settings_dictionary_psp_label" translatable="false">Pravidlá slovenského pravopisu</string>
+    <string name="settings_dictionary_sssj_label" translatable="false">Slovník súčasného slovenského jazyka A – G, H – L, M – N</string>
+    <string name="settings_dictionary_orter_label" translatable="false">Retrográdny slovník súčasnej slovenčiny</string>
+    <string name="settings_dictionary_scs_label" translatable="false">Slovník cudzích slov (akademický)</string>
+    <string name="settings_dictionary_sss_label" translatable="false">Synonymický slovník slovenčiny</string>
+    <string name="settings_dictionary_peciar_label" translatable="false">Slovník slovenského jazyka</string>
+
+    <string name="settings_dictionary_kssj_value" translatable="false">kssj4</string>
+    <string name="settings_dictionary_psp_value" translatable="false">psp</string>
+    <string name="settings_dictionary_sssj_value" translatable="false">sssj</string>
+    <string name="settings_dictionary_orter_value" translatable="false">orter</string>
+    <string name="settings_dictionary_scs_value" translatable="false">scs</string>
+    <string name="settings_dictionary_sss_value" translatable="false">sss</string>
+    <string name="settings_dictionary_peciar_value" translatable="false">peciar</string>
+
+    <string name="settings_dictionary_kssj_additional" translatable="false">z r. 2003 – kodifikačná príručka</string>
+    <string name="settings_dictionary_psp_additional" translatable="false">z r. 2013 – kodifikačná príručka</string>
+    <string name="settings_dictionary_sssj_additional" translatable="false">z r. 2006, 2011, 2015</string>
+    <string name="settings_dictionary_orter_additional" translatable="false">z r. 2018</string>
+    <string name="settings_dictionary_scs_additional" translatable="false">z r 2005</string>
+    <string name="settings_dictionary_sss_additional" translatable="false">z r. 2004</string>
+    <string name="settings_dictionary_peciar_additional" translatable="false">z r. 1959 – 1968*</string>
+
+
+    <!--    historicke slovniky-->
+    <string name="settings_dictionary_hssjV_label" translatable="false">Historický slovník slovenského jazyka V (R-rab — Š-švrkotať)</string>
+    <string name="settings_dictionary_bernolak_label" translatable="false">Slowár Slowenskí Češko-Laťinsko-Ňemecko-Uherskí</string>
+
+    <string name="settings_dictionary_hssjV_value" translatable="false">hssjV</string>
+    <string name="settings_dictionary_bernolak_value" translatable="false">bernolak</string>
+
+    <string name="settings_dictionary_hssjV_additional" translatable="false">z r. 2000*</string>
+    <string name="settings_dictionary_bernolak_additional" translatable="false">od Antona Bernoláka z r. 1825</string>
+
+    <!--    ine-->
+    <string name="settings_dictionary_noundb_label" translatable="false">Paradigmy podstatných mien.</string>
+    <string name="settings_dictionary_orient_label" translatable="false">Slovník prepisov z orientálnych jazykov</string>
+    <string name="settings_dictionary_locutio_label" translatable="false">Zvukové nahrávky niektorých slov</string>
+    <string name="settings_dictionary_obce_label" translatable="false">Názvy obcí Slovenskej republiky</string>
+    <string name="settings_dictionary_priezviska_label" translatable="false">Databáza priezvisk na Slovensku</string>
+    <string name="settings_dictionary_un_label" translatable="false">Databáza urbanoným</string>
+    <string name="settings_dictionary_pskcs_label" translatable="false">Frázy z paralelného slovensko-českého korpusu</string>
+    <string name="settings_dictionary_psken_label" translatable="false">Frázy z paralelného slovensko-anglického korpusu</string>
+
+    <string name="settings_dictionary_noundb_value" translatable="false">noundb</string>
+    <string name="settings_dictionary_orient_value" translatable="false">orient</string>
+    <string name="settings_dictionary_locutio_value" translatable="false">locutio</string>
+    <string name="settings_dictionary_obce_value" translatable="false">obce</string>
+    <string name="settings_dictionary_priezviska_value" translatable="false">priezviska</string>
+    <string name="settings_dictionary_un_value" translatable="false">un</string>
+    <string name="settings_dictionary_pskcs_value" translatable="false">pskcs</string>
+    <string name="settings_dictionary_psken_value" translatable="false">psken</string>
+
+    <string name="settings_dictionary_obce_additional" translatable="false">(Vývin v rokoch 1773 – 1997)*</string>
+    <string name="settings_dictionary_priezviska_additional" translatable="false">vytvorená z publikácie P. Ďurča a kol.: Databáza vlastných mien a názvov lokalít na Slovensku z r. 1998*</string>
+    <string name="settings_dictionary_un_additional" translatable="false">(stav v roku 1995)*</string>
+
+
+    <!-- night mode -->
+    <string name="settings_night_mode_label">Night mode</string>
+    <string name="settings_night_mode_key" translatable="false">night_mode</string>
+    <string name="settings_night_mode_default" translatable="false">@string/settings_night_mode_disabled_value</string>
+
+    <string name="settings_night_mode_disabled_label">Disabled</string>
+    <string name="settings_night_mode_always_on_label">Always on</string>
+    <string name="settings_night_mode_automatic_label">Automatic</string>
+
+    <string name="settings_night_mode_disabled_value" translatable="false">disabled</string>
+    <string name="settings_night_mode_always_on_value" translatable="false">always on</string>
+    <string name="settings_night_mode_automatic_value" translatable="false">automatic</string>
+
+    <!--    font size-->
+    <string name="settings_font_size_label">Font size</string>
+    <string name="settings_font_size_key" translatable="false">font size</string>
+    <string name="settings_font_size_default" translatable="false">@string/settings_font_size_normal_value</string>
+
+    <string name="settings_font_size_small_label">Small</string>
+    <string name="settings_font_size_normal_label">Normal</string>
+    <string name="settings_font_size_large_label">Large</string>
+    <string name="settings_font_size_larger_label">Larger</string>
+
+    <string name="settings_font_size_small_value" translatable="false">small</string>
+    <string name="settings_font_size_normal_value" translatable="false">normal</string>
+    <string name="settings_font_size_large_value" translatable="false">large</string>
+    <string name="settings_font_size_larger_value" translatable="false">larger</string>
+
+
+    <string name="settings_dictionary_key" translatable="false">preference_dictionary</string>
+    <string name="settings_appearance_key" translatable="false">preference_appearance</string>
+    <string name="settings_about_key" translatable="false">preference_about</string>
+
+
+    <string name="settings_about_version_label">Version</string>
+    <string name="settings_about_developer_label">Developer</string>
+    <string name="settings_about_source_code_label">Source code</string>
+    <string name="settings_about_licence_label">Licence</string>
+    <string name="settings_about_licences_label">Licences</string>
+
+    <string name="settings_about_version_key" translatable="false">about_version</string>
+    <string name="settings_about_developer_key" translatable="false">about_developer</string>
+    <string name="settings_about_source_code_key" translatable="false">about_source_code</string>
+    <string name="settings_about_licence_key" translatable="false">about_licence</string>
+    <string name="settings_about_licences_key" translatable="false">about_licences</string>
+
+    <string name="settings_about_developer_summary" translatable="false">Martin Bilka</string>
+    <string name="settings_about_source_code_summary" translatable="false">https://github.com/bilec/Dictionary</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_appearance">Appearance</string>
+    <string name="title_history">History</string>
+    <string name="title_about">About</string>
+    <string name="title_licences">Licences</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="search_failed">Search failed</string>
+    <string name="retry">Retry</string>
+    <string name="audio_focus_request_failed">Cannot play it right now.</string>
+    <string name="audio_preparing_error">Error while preparing audio file</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_word_question">Are you sure you would like to delete this word?</string>
+    <string name="delete_all_words_question">Are you sure you would like to delete all this words?</string>
+    <string name="empty_view_text">This is empty</string>
+    <string name="select_all">Select All</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="sort_by">Sort By</string>
+    <string name="time">Time</string>
+    <string name="alphabetically_a_z">Alphabetically (A-Z)</string>
+    <string name="alphabetically_z_a">Alphabetically (Z-A)</string>
+    <string name="delete_all">Delete All</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="preference_dictionary_summary">Search pattern, Dictionaries</string>
+    <string name="preference_appearance_summary">Night mode, Font size</string>
+    <string name="title_local">Local</string>
+    <string name="title_global">Global</string>
+    <string name="search_query_hint">Search…</string>
+    <string name="title_licence">Licence</string>
+
+</resources>
