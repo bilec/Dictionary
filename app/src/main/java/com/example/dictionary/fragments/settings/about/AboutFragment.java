@@ -48,7 +48,7 @@ public class AboutFragment extends PreferenceFragmentCompat {
                 bundle.putString(LicenceFragment.TITLE,LicencesUsed.getMITLicence().getName());
                 bundle.putString(LicenceFragment.BODY, LicencesUsed.getMITLicence("2020","Martin Bilka").getTerms());
 
-                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+                NavController navController = NavHostFragment.findNavController(this);
                 navController.navigate(R.id.navigation_licence_licences_about_settings, bundle);
                 return false;
             });
@@ -58,7 +58,7 @@ public class AboutFragment extends PreferenceFragmentCompat {
         if(preferenceLicences != null)
         {
             preferenceLicences.setOnPreferenceClickListener(preference -> {
-                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+                NavController navController = NavHostFragment.findNavController(this);
                 navController.navigate(R.id.navigation_licences_about_settings);
                 return false;
             });
