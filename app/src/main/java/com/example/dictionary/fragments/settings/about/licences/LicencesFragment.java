@@ -50,7 +50,7 @@ public class LicencesFragment extends Fragment {
             Bundle bundle = new Bundle();
             bundle.putString(LicenceFragment.TITLE,libraryList.get(position).getLicence().getName());
             bundle.putString(LicenceFragment.BODY,libraryList.get(position).getLicence().getTerms());
-            NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+            NavController navController = NavHostFragment.findNavController(this);
             navController.navigate(R.id.navigation_licence_licences_about_settings,bundle);
         });
 
