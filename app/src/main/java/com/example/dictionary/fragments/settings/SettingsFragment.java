@@ -38,7 +38,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
     private boolean navigate(int id)
     {
-        NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+        NavController navController = NavHostFragment.findNavController(this);
         navController.navigate(id);
         return true;
     }
