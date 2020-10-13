@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Dictionary</string>
+    <string name="author" translatable="false">Martin Bilka</string>
+
     <string name="home">Home</string>
     <string name="settings">Settings</string>
 
@@ -121,18 +123,18 @@
 
 
     <string name="settings_about_version_label">Version</string>
-    <string name="settings_about_developer_label">Developer</string>
+    <string name="settings_about_author_label">Author</string>
     <string name="settings_about_source_code_label">Source code</string>
     <string name="settings_about_licence_label">Licence</string>
     <string name="settings_about_licences_label">Licences</string>
 
     <string name="settings_about_version_key" translatable="false">about_version</string>
-    <string name="settings_about_developer_key" translatable="false">about_developer</string>
+    <string name="settings_about_author_key" translatable="false">about_developer</string>
     <string name="settings_about_source_code_key" translatable="false">about_source_code</string>
     <string name="settings_about_licence_key" translatable="false">about_licence</string>
     <string name="settings_about_licences_key" translatable="false">about_licences</string>
 
-    <string name="settings_about_developer_summary" translatable="false">Martin Bilka</string>
+    <string name="settings_about_author_summary" translatable="false">@string/author</string>
     <string name="settings_about_source_code_summary" translatable="false">https://github.com/bilec/Dictionary</string>
 
 

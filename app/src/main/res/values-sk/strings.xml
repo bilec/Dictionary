@@ -48,7 +48,7 @@
     <string name="preference_appearance_summary">Nočný režim, Veľkosť písma</string>
     <string name="title_local">Lokálna</string>
     <string name="title_global">Globálna</string>
-    <string name="search_query_hint">Hľadaj...</string>
+    <string name="search_query_hint">Hľadaj…</string>
     <string name="search_failed">Vyhľadávanie zlyhalo</string>
     <string name="audio_preparing_error">Chyba pri načítavaní zvukového súboru</string>
     <string name="title_about">O aplikácii</string>
@@ -57,4 +57,6 @@
     <string name="settings_about_licence_label">Licencia</string>
     <string name="settings_about_licences_label">Licencie</string>
     <string name="title_licences">Licencie</string>
+    <string name="title_licence">Licencia</string>
+    <string name="settings_about_author_label">Autor</string>
 </resources>

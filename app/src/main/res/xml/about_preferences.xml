@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -9,9 +9,9 @@
         tools:summary="1.0"/>
 
     <Preference
-        app:key="@string/settings_about_developer_key"
-        app:title="@string/settings_about_developer_label"
-        app:summary="@string/settings_about_developer_summary"/>
+        app:key="@string/settings_about_author_key"
+        app:title="@string/settings_about_author_label"
+        app:summary="@string/settings_about_author_summary"/>
 
     <Preference
         app:key="@string/settings_about_source_code_key"
