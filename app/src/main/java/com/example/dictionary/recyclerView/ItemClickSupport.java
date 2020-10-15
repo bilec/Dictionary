@@ -8,6 +8,11 @@ import com.example.dictionary.R;
 
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * From
+ * https://www.littlerobots.nl/blog/Handle-Android-RecyclerView-Clicks/
+ */
+
 public class ItemClickSupport {
     private final RecyclerView mRecyclerView;
     private OnItemClickListener mOnItemClickListener;

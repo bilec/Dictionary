@@ -10,6 +10,10 @@ import android.util.Log;
 
 public class InternetConnectionCheck {
 
+    /**
+     * From
+     * https://stackoverflow.com/a/57285217
+     */
     public static boolean isNetworkAvailable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         Network nw = connectivityManager.getActiveNetwork();

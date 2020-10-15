@@ -24,6 +24,10 @@ public class FileManager {
         this.context = context;
     }
 
+    /**
+     * From
+     * https://stackoverflow.com/questions/1714761/download-a-file-programmatically-on-android/1718140
+     */
     public void downloadFile(String url, String fileName)
     {
         File outputFile = new File(getDir(), fileName);

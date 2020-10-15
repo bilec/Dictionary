@@ -7,6 +7,11 @@ import android.text.style.ReplacementSpan;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+/**
+ * From
+ * https://stackoverflow.com/a/43750749
+ */
+
 public class HrSpan extends ReplacementSpan {
 
     @Override

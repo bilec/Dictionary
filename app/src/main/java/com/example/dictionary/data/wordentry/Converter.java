@@ -8,6 +8,11 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.List;
 
+/**
+ * From
+ * https://stackoverflow.com/a/45071364
+ */
+
 public class Converter {
 
     @TypeConverter

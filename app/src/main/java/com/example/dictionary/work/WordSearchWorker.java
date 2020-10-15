@@ -427,6 +427,10 @@ public class WordSearchWorker extends Worker {
         return uriBuilder.toString();
     }
 
+    /**
+     * From
+     * https://stackoverflow.com/a/10522801
+     */
     private String getFileNameFromUrl(String urlText)
     {
         String fileExtension = MimeTypeMap.getFileExtensionFromUrl(urlText);
@@ -434,6 +438,10 @@ public class WordSearchWorker extends Worker {
     }
 
 
+    /**
+     * From
+     * https://stackoverflow.com/a/5254817
+     */
     private String replaceLast(String text, String from, String to)
     {
         int lastIndex = text.lastIndexOf(from);

@@ -6,6 +6,11 @@ import android.text.Spanned;
 
 import org.xml.sax.XMLReader;
 
+/**
+ * From
+ * https://stackoverflow.com/a/43750749
+ */
+
 public class HtmlTagHandler implements Html.TagHandler {
 
     @Override

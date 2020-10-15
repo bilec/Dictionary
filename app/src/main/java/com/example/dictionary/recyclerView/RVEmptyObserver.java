@@ -4,6 +4,11 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * From
+ * https://gist.github.com/sheharyarn/5602930ad84fa64c30a29ab18eb69c6e
+ */
+
 public class RVEmptyObserver extends RecyclerView.AdapterDataObserver {
     private View emptyView;
     private RecyclerView recyclerView;
