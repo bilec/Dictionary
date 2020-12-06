@@ -7,11 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".fragments.home.HomeFragment">
 
-        <com.google.android.material.progressindicator.ProgressIndicator
+        <com.google.android.material.progressindicator.LinearProgressIndicator
             android:id="@+id/progress_linear"
-            style="@style/Widget.MaterialComponents.ProgressIndicator.Linear.Indeterminate"
+            style="@style/Widget.MaterialComponents.LinearProgressIndicator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:indeterminate="true"
             app:indicatorColor="?colorAccent" />
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -39,7 +42,7 @@
                     app:backgroundTint="@color/colorPrimary"
                     app:strokeColor="@color/colorPrimary"
                     app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
-                    />
+                    android:contentDescription="@string/todo" />
 
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
