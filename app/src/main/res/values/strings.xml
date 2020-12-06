@@ -174,4 +174,6 @@
     <string name="search_query_hint">Search…</string>
     <string name="title_licence">Licence</string>
 
+    <string name="todo" translatable="false">TODO</string>
+
 </resources>
