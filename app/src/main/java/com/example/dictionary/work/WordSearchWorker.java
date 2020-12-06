@@ -85,8 +85,6 @@ public class WordSearchWorker extends Worker {
             return Result.failure();
         }
 
-        deleteFiles(soundToDelete, imagesToDelete);
-
         Element body = doc.body();
 
         String specialCodeForNextTime = getSpecialCode(body);
@@ -117,6 +115,13 @@ public class WordSearchWorker extends Worker {
 
             WordEntry wordEntry = new WordEntry(dictionaryName,word,imageNameList,soundName);
             wordEntryList.add(wordEntry);
+        }
+
+        deleteFiles(soundToDelete, imagesToDelete);
+
+        if(wordEntryList.isEmpty())
+        {
+            return Result.failure();
         }
 
         updateWordEntryDatabase(wordEntryList);
