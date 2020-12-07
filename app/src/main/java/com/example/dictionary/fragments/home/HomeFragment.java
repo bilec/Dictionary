@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment {
         wordEntryAdapter.notifyDataSetChanged();
 
 
-        binding.progressLinear.setVisibility(View.GONE);
+        binding.progressLinear.hide();
 
         return binding.getRoot();
     }
@@ -123,7 +123,7 @@ public class HomeFragment extends Fragment {
             boolean isFinished = workState.isFinished();
             if(isFinished)
             {
-                binding.progressLinear.setVisibility(View.GONE);
+                binding.progressLinear.hide();
 
                 if(workState.equals(WorkInfo.State.FAILED))
                 {
@@ -135,7 +135,7 @@ public class HomeFragment extends Fragment {
             }
             else
             {
-                binding.progressLinear.setVisibility(View.VISIBLE);
+                binding.progressLinear.show();
             }
         });
 
