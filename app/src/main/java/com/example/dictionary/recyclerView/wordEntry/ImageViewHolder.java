@@ -47,9 +47,12 @@ public class ImageViewHolder extends AbstractViewHolder{
         int maxHeight = -1;
         for(Bitmap image : imageList)
         {
-            if (image.getHeight() > maxHeight)
+            if(image != null)
             {
-                maxHeight = image.getHeight();
+                if (image.getHeight() > maxHeight)
+                {
+                    maxHeight = image.getHeight();
+                }
             }
         }
 
