@@ -39,7 +39,10 @@ public class ImageViewHolder extends AbstractViewHolder{
         for(String imageName : wordEntry.getImageNameList())
         {
             Bitmap image = BitmapFactory.decodeFile(fileManager.getFilePath(imageName));
-            imageList.add(image);
+            if(image != null) 
+            {
+                imageList.add(image);
+            }
         }
 
 
@@ -47,12 +50,9 @@ public class ImageViewHolder extends AbstractViewHolder{
         int maxHeight = -1;
         for(Bitmap image : imageList)
         {
-            if(image != null)
+            if (image.getHeight() > maxHeight)
             {
-                if (image.getHeight() > maxHeight)
-                {
-                    maxHeight = image.getHeight();
-                }
+                maxHeight = image.getHeight();
             }
         }
 
